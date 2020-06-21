@@ -8,19 +8,13 @@
 
 .search-box{
   padding-top: 2.5em;
+  padding-bottom: 2em;
   width: 80%;
   margin: 0 auto;
 
 }
   
- .gallery {
-  @include mquery('m'){
-  @include flex($dir: column, $wrap: wrap);
-    padding: 2em 2em;
-  }
-  }
-
-  .row{
+ .row{
     @include flex($dir: row, $wrap: wrap, $just: center);
   }
 
