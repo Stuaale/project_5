@@ -1,0 +1,26 @@
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+
+
+
+.col{
+    @include img($width: 350px, $height: 350px, $max-width: 100%);
+
+@include mquery ('m'){
+        @include img($width: 400px, $height: 400px);
+        opacity: 80%;
+
+@include mquery ('l'){
+    @include img($width: 325px, $height: 325px);
+    opacity: 80%;
+
+
+
+&:hover{
+        opacity: 100%;
+        transform: scale(1.1);
+}
+}
+}
+}
