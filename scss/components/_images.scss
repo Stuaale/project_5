@@ -4,7 +4,7 @@
 
 
 
-.col{
+.image{
     @include img($width: 350px, $height: 350px, $max-width: 100%);
 
 @include mquery ('m'){

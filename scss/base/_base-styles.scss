@@ -29,11 +29,25 @@ ul{
   margin: 0;
 }
 
+//lightbox local CSS changes
+
 .lb-caption{
   display: block;
   text-align: center;
-  margin-left: 30px;
+
 }
+
+
+.lb-caption{
+  @include mquery('m'){
+  display: block;
+  text-align: center;
+  margin-left: 30px;
+  } 
+}
+
+
+
 
 /* ============================================= */
 /*              Typography                       */
