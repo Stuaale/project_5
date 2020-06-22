@@ -424,7 +424,6 @@ input[type=text] {
 input {
   transition: background-color 0.5s ease 0.1s;
 }
-
 input:focus {
   background-color: white;
   border: solid 1px lightgrey;

@@ -22,8 +22,8 @@ input[type="text"]{
 input{
   transition: background-color .5s ease .1s;
 
-}
-input:focus{
+&:focus{
   background-color: white;
   border: solid 1px lightgrey;
+}
 }
